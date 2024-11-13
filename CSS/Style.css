@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Inter&display=swap");
+*{
+  font-family: Be Vietnam Pro;
+}
+body{
+    background-color: #fffbf6;
+}
+.container{
+    margin: auto;
+    width: 1350px;
+  
+    ; /* لون الخلفية */
+    padding: 15px 20px;
+    overflow: hidden; /* لمنع انزلاق العناصر */
+}
+.container div {
+  display: inline-block;
+}
+
+
+/* تنسيق الشعار والقائمة */
+.header div {
+    display: inline-block; /* لجعل الشعار والقائمة بجانب بعضهما */
+    vertical-align: middle; /* محاذاة وسطية للعناصر */
+}
+
+/* الشعار */
+.header img {
+    width: 50px; /* حجم الشعار */
+    height: auto;
+    margin-right: 15px; /* مسافة بين الشعار والقائمة */
+}
+
+/* تنسيق القائمة */
+.header ul {
+    list-style-type: none;
+    display: inline-block; /* لجعل القائمة بجانب الشعار */
+}
+
+.header ul li {
+    display: inline-block; /* لجعل عناصر القائمة بجانب بعضها */
+    margin-right: 15px; /* مسافة بين عناصر القائمة */
+}
+
+.header ul li a {
+    text-decoration: none; /* إزالة الخط السفلي */
+    color: #333; /* لون النص */
+    font-weight: bold;
+}
+
+/* تنسيق الأزرار */
+.button{
+    float: right;
+
+    padding: 15px 10px;
+}
+
+.button a:nth-child(2) {
+    text-decoration: none;
+    color: #fff;
+    background-color:  #ff9500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.container .button a {
+   
+    text-decoration: none;
+    font-family: Be Vietnam Pro;
+    color: #262626;
+  
+    font-weight: bold;
+  }
+  .container .button a:nth-child(2) {
+    border-radius: 4px;
+    background-color:  #ff9500;
+    padding: 8px 16px;
+    color: white;
+  }
+  .about{
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+    min-height: 100vh;
+   margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+  }
+ .about .about-text {
+    height: 300px;
+    width: 450px;
+    margin: 170px 450px;
+    text-align: center;
+    background-color: #312c32;
+    opacity: 0.7;
+    color: #ff9500;
+    border-radius: 5px;
+ }
+ .app-download{
+    text-align: center;
+     margin: auto;
+     margin-top: 100px;
+     
+ }
+ .app-download p{
+     font-size :40px;
+     margin-bottom: 30px;
+     font-weight: 500;
+ }
+ .app-download-platforms img{
+    margin-right: 20px;
+   
+    
+}
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    border-top: 1px solid black;
+    
+
+}
